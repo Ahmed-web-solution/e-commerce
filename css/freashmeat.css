@@ -4,3 +4,45 @@
 	background-position: top center;
     background-image: url(../img/hero/ftreashmeat3.jpg);
 }
+.set-bg-2 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+    background-image: url(../img/hero/freashprofuct-3.jpg);
+}
+.set-bg-3 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+    background-image: url(../img/hero/freshproduct-4.webp);
+}
+.set-bg-4 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+    background-image: url(../img/hero/freshproduct-6.jpg);
+}
+.set-bg-5 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+    background-image: url(../img/hero/freshproduct-7.jpg);
+}
+.set-bg-6 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+    background-image: url(../img/hero/freshproduct-8.jpeg);
+}
+.set-bg-7 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+    background-image: url(../img/hero/freshproduct-9.png);
+}
+.set-bg-8 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+    background-image: url(../img/hero/freashmeat1.webp);
+}
