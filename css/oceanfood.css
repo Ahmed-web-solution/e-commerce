@@ -2,47 +2,56 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-    background-image: url(../img/hero/ftreashmeat3.jpg);
+    background-image: url(../img/oceanfood/fish-1.jpg);
 }
 .set-bg-2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-    background-image: url(../img/hero/bief-2.webp);
+    background-image: url(../img/oceanfood/fish-1.avif);
 }
 .set-bg-3 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-    background-image: url(../img/hero/hen-1.avif);
+    background-image: url(../img/oceanfood/fish-2.jpeg);
 }
 .set-bg-4 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-    background-image: url(../img/hero/hen-2.jpeg);
+    background-image: url(../img/oceanfood/fish-3.jpeg);
 }
 .set-bg-5 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-    background-image: url(../img/hero/bief-3.jpg);
+    background-image: url(../img/oceanfood/fish-5.jpg);
 }
 .set-bg-6 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-    background-image: url(../img/hero/bief-5.jpeg);
+    background-image: url(../img/oceanfood/fish-6.jpeg);
 }
 .set-bg-7 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-    background-image: url(../img/hero/goat-3.jpeg);
+    background-image: url(../img/oceanfood/fish-7.jpeg);
 }
 .set-bg-8 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-    background-image: url(../img/hero/goat-4.jpeg);
+    background-image: url(../img/oceanfood/fish-8.jpeg);
 }
+
+
+/* Rohu */
+/* Hilsha */
+/* Catfish */
+/* Mackerel */
+/* Pomfret*/
+/* Red Snappe */
+/* Silver Carp */
