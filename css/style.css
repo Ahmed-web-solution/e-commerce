@@ -465,7 +465,7 @@ ol {
 }
 
 .header__menu ul li.active a {
-	color: #FFA41B;
+	/* color: #FFA41B; */
 }
 
 .header__menu ul li:hover .header__menu__dropdown {

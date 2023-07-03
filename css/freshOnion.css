@@ -2,61 +2,62 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-	background-image: url(https://as2.ftcdn.net/v2/jpg/04/00/89/67/1000_F_400896765_Gvz9KnXT5RVRkmrw8W95SZEfFXobxNl3.jpg);
+	background-image: url(../img/fruit/fruit-1.jpg);
 }
+
 
 .set-bg-0 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-	background-image: url(https://images.hindustantimes.com/img/2022/04/20/1600x900/raw_onion_thumb_1650430897134_1650430905815.jpg);
+	background-image: url(../img/fruit/fruit-2.jpeg);
 }
 
 .set-bg-1 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-	background-image: url(https://cdn0.woolworths.media/content/wowproductimages/large/105931.jpg);
+	background-image: url(../img/fruit/fruit-3.jpeg);
 }
 
 .set-bg-2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-	background-image: url(https://east-fruit.com/wp-content/uploads/2020/08/7e2fa5b4864a3e8f90f7bff01143ade0.jpg);
+	background-image: url(../img/fruit/fruit-4.avif);
 }
 
 .set-bg-3 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-	background-image: url(https://m.media-amazon.com/images/I/310IZ5wN5aL._AC_UF1000,1000_QL80_.jpg);
+	background-image: url(../img/fruit/fruit-5.jpeg);
 }
 
 .set-bg-4 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt8j0_fcjJxzh_UlfYmt_8KqSTy-hc4ly7X8ndXwObIMOXAsz7d5_N0O-7ZZoFWCZ6Ux8&usqp=CAU);
+	background-image: url(../img/fruit/fruit-6.jpeg);
 }
 
 .set-bg-5 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-	background-image: url(data:image/jpeg;base64,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);
+	background-image: url(../img/fruit/fruit-7.jpeg);
 }
 
 .set-bg-6 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-	background-image: url(https://png.pngtree.com/background/20230612/original/pngtree-nuts-in-half-are-laying-on-a-white-background-picture-image_3175518.jpg);
+	background-image: url(../img/fruit/fruit-8.avif);
 }
 
 .set-bg-7 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-	background-image: url(https://media.istockphoto.com/id/478917283/photo/dried-dates.jpg?s=612x612&w=0&k=20&c=rKDNSfCI8Svf_y7d_SMM5NUC4v3oFSyQ527YCFTK06I=);
+	background-image: url(../img/fruit/fruit-9.jpeg);
 }
