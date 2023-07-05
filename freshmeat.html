@@ -66,7 +66,7 @@
                 <div class="header__cart">
                     <ul>
                         <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                        <li><a href="addToCart.html"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                        <li><a href="addToCart.html"><i class="fa fa-shopping-bag"></i> <span id="number">0</span></a></li>
                     </ul>
                     <div class="header__cart__price">item:<span>1500.Rs</span></div>
                 </div>
@@ -194,7 +194,7 @@
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                            <li ><a onclick="addToCartFunction({productName:'Tenderlo', price:799, productImg:'img/featured/feature-1.jpg'})"  href="#" ><i  class="fa fa-shopping-cart"></i></a></li>
+                            <li ><a onclick="addToCartFunction({productName:'Tenderlo', price:799, productImg:'img/hero/ftreashmeat3.jpg'})" onclick="incrementNumber()" href="#" ><i  id="increment-btn" class="fa fa-shopping-cart" onclick="incrementNumber()"></i></a></li>
                         </ul>
                     </div>
                     <div class="featured__item__text">
@@ -209,7 +209,7 @@
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                            <li><a onclick="addToCartFunction({productName:'Brisket Bites', price:850, productImg:'img/hero/ftreashmeat3.jpg'})" href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a onclick="addToCartFunction({productName:'Brisket Bites', price:850, productImg:'img/hero/bief-2.webp'})"  href="#"> <i id="increment-btn" class="fa fa-shopping-cart" onclick="incrementNumber()"></i></a></li>
                         </ul>
                     </div>
                     <div class="featured__item__text">
@@ -224,7 +224,7 @@
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                            <li><a onclick="addToCartFunction({productName:'Hen Breas', price:2300, productImg:'img/featured/feature-3.jpg'})" href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a onclick="addToCartFunction({productName:'Hen Breas', price:2300, productImg:'img/hero/hen-1.avif'})" onclick="incrementNumber()" href="#"><i  class="fa fa-shopping-cart" onclick="incrementNumber()"></i></a></li>
                         </ul>
                     </div>
                     <div class="featured__item__text">
@@ -239,7 +239,7 @@
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                            <li><a onclick="addToCartFunction({productName:'Hen Leg', price:469, productImg:'img/featured/feature-4.jpg'})"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a onclick="addToCartFunction({productName:'Hen Leg', price:469, productImg:'img/hero/hen-2.jpeg'})"><i  class="fa fa-shopping-cart" onclick="incrementNumber()"></i></a></li>
                         </ul>
                     </div>
                     <div class="featured__item__text">
@@ -254,7 +254,7 @@
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                            <li><a onclick="addToCartFunction({productName:'Tuna Steak', price:550, productImg:'img/featured/feature-5.jpg'})"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a onclick="addToCartFunction({productName:'Tuna Steak', price:550, productImg:'img/hero/bief-3.jpg'})"><i  class="fa fa-shopping-cart" onclick="incrementNumber()"></i></a></li>
                         </ul>
                     </div>
                     <div class="featured__item__text">
@@ -269,7 +269,7 @@
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                            <li><a onclick="addToCartFunction({productName:'Salmon Fillet', price:1400, productImg:'img/featured/feature-6.jpg'})" href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a onclick="addToCartFunction({productName:'Salmon Fillet', price:1400, productImg:'img/hero/bief-5.jpeg'})" href="#"><i  class="fa fa-shopping-cart" onclick="incrementNumber()"></i></a></li>
                         </ul>
                     </div>
                     <div class="featured__item__text">
@@ -284,7 +284,7 @@
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                            <li><a onclick="addToCartFunction({productName:'Goat Chops', price:850, productImg:'img/featured/feature-7.jpg'})" href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a onclick="addToCartFunction({productName:'Goat Chops', price:850, productImg:'img/hero/goat-3.jpeg'})"><i  class="fa fa-shopping-cart" onclick="incrementNumber()"></i></a></li>
                         </ul>
                     </div>
                     <div class="featured__item__text">
@@ -299,7 +299,7 @@
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                            <li><a onclick="addToCartFunction({productName:'Goat Stew Meat', price:750, productImg:'img/featured/feature-8.jpg'})" href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a onclick="addToCartFunction({productName:'Goat Stew Meat', price:750, productImg:'img/hero/goat-4.jpeg'})" href=""><i  class="fa fa-shopping-cart" onclick="incrementNumber()"></i></a></li>
                         </ul>
                     </div>
                     <div class="featured__item__text">
