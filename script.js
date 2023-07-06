@@ -116,6 +116,23 @@ productData.forEach(product => {
 //   cards.push(input);
 // }
 
+// let array =  [1, 2, 3, 4, 5];
+
+// let result = productData.reduce((a, b) => {
+//   return a + b.price;
+// }, 0);
+
+// document.getElementById('total-price',total).innerHTML;
+// console.log("total-price")
+
+
+let totalAmount = productData.reduce((a, b) => {
+  return a + b.price;
+},0);
+
+   document.getElementById('totalAmount').innerHTML = totalAmount;
+   console.log('totalAmount',totalAmount);
+
 // function calculateTotal() {
 //   let total = 0;
 //   for (let i = 0; i < cards.length; i++) {
