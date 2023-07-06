@@ -77,50 +77,50 @@ productData.forEach(product => {
 
 
 
-let total = 0;
+// let total = 0;
 
-function addValue() {
-  const inputField = document.getElementById('input-field');
-  const value = parseInt(inputField.value);
+// function addValue() {
+//   const inputField = document.getElementById('input-field');
+//   const value = parseInt(inputField.value);
 
-  if (!isNaN(value)) {
-    total += value;
-    inputField.value = '';
-    updateTotal();
-  }
-}
+//   if (!isNaN(value)) {
+//     total += value;
+//     inputField.value = '';
+//     updateTotal();
+//   }
+// }
 
-function updateTotal() {
-  const totalElement = document.getElementById('total');
-  totalElement.textContent = 'Total: ' + total;
-}
+// function updateTotal() {
+//   const totalElement = document.getElementById('total');
+//   totalElement.textContent = 'Total: ' + total;
+// }
 
 
-const cardContainer = document.getElementById('card-container');
-const addCardBtn = document.getElementById('add-card-btn');
-const calculateTotalBtn = document.getElementById('calculate-total-btn');
-const totalElement = document.getElementById('total');
+// const cardContainer = document.getElementById('card-container');
+// const addCardBtn = document.getElementById('add-card-btn');
+// const calculateTotalBtn = document.getElementById('calculate-total-btn');
+// const totalElement = document.getElementById('total');
 
-let cards = [];
+// let cards = [];
 
-addCardBtn.addEventListener('click', addCard);
-calculateTotalBtn.addEventListener('click', calculateTotal);
+// addCardBtn.addEventListener('click', addCard);
+// calculateTotalBtn.addEventListener('click', calculateTotal);
 
-function addCard() {
-  const card = document.createElement('div');
-  card.classList.add('card');
-  const input = document.createElement('input');
-  input.type = 'number';
-  card.appendChild(input);
-  cardContainer.appendChild(card);
-  cards.push(input);
-}
+// function addCard() {
+//   const card = document.createElement('div');
+//   card.classList.add('card');
+//   const input = document.createElement('input');
+//   input.type = 'number';
+//   card.appendChild(input);
+//   cardContainer.appendChild(card);
+//   cards.push(input);
+// }
 
-function calculateTotal() {
-  let total = 0;
-  for (let i = 0; i < cards.length; i++) {
-    const value = parseFloat(cards[i].value) || 0;
-    total += value;
-  }
-  totalElement.textContent = 'Total: ' + total;
-}
+// function calculateTotal() {
+//   let total = 0;
+//   for (let i = 0; i < cards.length; i++) {
+//     const value = parseFloat(cards[i].value) || 0;
+//     total += value;
+//   }
+//   totalElement.textContent = 'Total: ' + total;
+// }

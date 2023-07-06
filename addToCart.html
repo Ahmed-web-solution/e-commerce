@@ -45,9 +45,11 @@
     <header class="header">
         <div class="container">
             <div class="row">
-                <div class="header__logo">
-                    <a href="./index.html"><img src="img/Screenshot_(74)-transformed.png" width="130px" height="100px" alt=""></a>
-                </div> 
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="img/Screenshot_(74)-transformed.png" width="130px" height="100px" alt=""></a>
+                    </div> 
+                </div>
                 <div class="col-lg-6">
                     <nav class="header__menu">
                         <ul>
@@ -70,9 +72,9 @@
                     <div class="header__cart">
                         <ul>
                             <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-bag"></i>  <span id="number">0</span></a></li>
                         </ul>
-                        <div class="header__cart__price">item: <span>$150.00</span></div>
+                        <div class="header__cart__price">item: <span>1500.Rs</span></div>
                     </div>
                 </div>
             </div>
@@ -84,7 +86,7 @@
     <!-- Header Section End -->
 
     <!-- Hero Section Begin -->
-    <section class="hero">
+    <section class="hero hero-normal">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -97,14 +99,14 @@
                             <li><a href="./freshmeat.html">Fresh Meat</a></li>
                             <li><a href="./vagetable.html">Vegetables</a></li>
                             <li><a href="./fruit&nutgifts.html">Fruit & Nut Gifts</a></li>
-                            <li><a href="freshberries.html">Fresh Berries</a></li>
-                            <li><a href="#">Ocean Foods</a></li>
-                            <li><a href="#">Butter & Eggs</a></li>
-                            <li><a href="./fastFood.html">Fast food</a></li>
-                            <li><a href="./freshOnion.html">Fresh Onion</a></li>
-                            <li><a href="#">Papayaya & Crisps</a></li>
+                            <li><a href="./freshberries.html">Fresh Berries</a></li>
+                            <li><a href="./oceanfood.html">Sea Foods</a></li>
+                            <li><a href="./butter&egg.html">Butter & Eggs</a></li>
+                            <li><a href="./fastFood.html">Fastfood</a></li>
+                            <li><a href="./freshOnion.html">Fresh Fruit</a></li>
+                            <!-- <li><a href="#">Papayaya & Crisps</a></li>
                             <li><a href="#">Oatmeal</a></li>
-                            <li><a href="#">Fresh Bananas</a></li>
+                            <li><a href="#">Fresh Bananas</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -143,7 +145,7 @@
               <div class="col-lg-12 col-md-12 col-12">
                   <h3 class="display-5 mb-2 text-center" style="color: #FFA41B;">Shopping Cart</h3>
                   <p class="mb-5 text-center">
-                      <i class="text-info font-weight-bold">3</i> items in your cart</p>
+                      <i class="text-info font-weight-bold"></i> <span id="number">0</span>  items in your cart</p>
                   <table id="shoppingCart" class="table table-condensed table-responsive">
                       <thead>
                           <tr>
